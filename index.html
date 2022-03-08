@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Password Generator</title>
+    <!--Content Delivery Network-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+    <h2>Generate Password</h2>
+    <div class="el">
+    <input type="text" placeholder="Password" class="inp" id="password" />
+    <button onclick="copytext()" title="Copy">
+    <i class="fas fa-clipboard"></i></button>
+    <button onclick="generatePassword()" title="Generate">
+    <i class="fas fa-key"></i></button>
+    </div>
+    </div>
+    <div class="info">Copied to clipboard!</div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
